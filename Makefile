@@ -3,4 +3,4 @@ install:
 	poetry install
 
 start:
-	poetry run python Telegram Bot/Bot.py
+	poetry run python Telegram-Bot/Bot.py
