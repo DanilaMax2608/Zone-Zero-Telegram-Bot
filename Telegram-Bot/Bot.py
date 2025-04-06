@@ -11,7 +11,7 @@ load_dotenv()
 
 TOKEN = os.environ.get('TELEGRAM_TOKEN')
 
-GAME_URL = "https://danilamax2608.github.io/Game_Test/"
+GAME_URL = "https://danilamax2608.github.io/Zone-Zero-Game/"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     welcome_message = "Welcome to Zone Zero! Your mission is to collect as many artifacts as possible. Good luck, stalker!"
